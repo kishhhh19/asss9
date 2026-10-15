@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Learning Management Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; }
+        header { background-color: #003366; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; }
+        nav { background: #002244; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .section { margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        h2 { color: #003366; border-left: 5px solid #003366; padding-left: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: #f9f9f9; padding: 15px; border-radius: 6px; border: 1px solid #ddd; }
+        .card h3 { margin-top: 0; color: #004488; }
+        footer { text-align: center; padding: 15px; background: #003366; color: white; font-size: 14px; position: relative; bottom: 0; width: 100%; margin-top: 4px;}
+        .badge { background: #28a745; color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+<header>🎓 Global University Learning Management Portal</header>
+<nav>
+    <a href="#courses">Courses</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#resources">Resources</a>
+    <a href="#assignments">Assignments</a>
+    <a href="#exams">Exams</a>
+</nav>
+
+<div class="container">
+    <div id="courses" class="section">
+        <h2>📚 Available Courses</h2>
+        <div class="grid">
+            <div class="card"><h3>CS-101: Introduction to DevOps</h3><p>Learn Git, Docker, Jenkins, and Kubernetes fundamentals.</p></div>
+            <div class="card"><h3>CS-102: Cloud Architecture</h3><p>Deep dive into distributed microservices topologies.</p></div>
+        </div>
+    </div>
+
+    <div id="faculty" class="section">
+        <h2>👨‍🏫 Faculty Profiles</h2>
+        <div class="grid">
+            <div class="card"><h3>Dr. Alan Turing</h3><p>Professor of Computer Science & DevOps Systems Engineering.</p></div>
+            <div class="card"><h3>Prof. Grace Hopper</h3><p>Lead Instructor in Automation Frameworks & CI/CD Pipelines.</p></div>
+        </div>
+    </div>
+
+    <div id="resources" class="section">
+        <h2>📖 Learning Resources</h2>
+        <ul>
+            <li><a href="#">Lecture Notes: Docker Containerization Basics (PDF)</a></li>
+            <li><a href="#">Lab Guide: Decoupling Kubernetes Core Services (Markdown)</a></li>
+        </ul>
+    </div>
+
+    <div id="assignments" class="section">
+        <h2>📢 Assignment Announcements</h2>
+        <div class="card">
+            <h3>Assignment 4: CI/CD Pipeline Construction <span class="badge">Active</span></h3>
+            <p><strong>Due Date:</strong> October 25, 2026. Deploy an automated rollback-ready Kubernetes application setup.</p>
+        </div>
+    </div>
+
+    <div id="exams" class="section">
+        <h2>📅 Examination Schedules</h2>
+        <table border="1" cellpadding="10" style="width:100%; border-collapse: collapse; text-align: left;">
+            <tr style="background:#003366; color:white;"><th>Subject</th><th>Date</th><th>Duration</th></tr>
+            <tr><td>DevOps Automation Lab</td><td>November 12, 2026</td><td>3 Hours</td></tr>
+            <tr><td>Cloud Infrastructure Systems</td><td>November 15, 2026</td><td>3 Hours</td></tr>
+        </table>
+    </div>
+</div>
+
+<footer>&copy; 2026 University LMS Portal System V1.0.0 (Stable Release)</footer>
+</body>
+</html>
